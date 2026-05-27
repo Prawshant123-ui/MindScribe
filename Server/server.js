@@ -16,7 +16,7 @@ app.use(cors({
   credentials: true
 }));
 
-// ✅ Only parse non-multipart requests — multer handles multipart
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -25,9 +25,9 @@ app.use(apiLimiter);
 app.use("/api/auth", authRoutes);
 app.use("/api/notes", noteRoutes);
 
-// ✅ Global error handler — catches multer and other errors
+
 app.use((err, req, res, next) => {
-  console.error("Global error full:", err); // ✅ log entire object
+  console.error("Global error full:", err); 
   console.error("Global error name:", err?.name);
   console.error("Global error code:", err?.code);
   console.error("Global error stack:", err?.stack);
