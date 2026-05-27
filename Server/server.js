@@ -10,7 +10,7 @@ const seedAdmin = require("./config/seedAdmin");
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:8080",
+  origin: "https://mindscribe-02.netlify.app/",
   credentials: true,
 }));
 
