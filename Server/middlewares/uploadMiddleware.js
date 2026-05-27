@@ -12,10 +12,11 @@ const storage = new CloudinaryStorage({
     if (file.mimetype === "application/pdf") resource_type = "raw";
 
     return {
-      folder: "mindscribe",
-      public_id: filename,
-      resource_type,
-    };
+  folder: "mindscribe",
+  public_id: filename,
+  resource_type,
+  format: file.mimetype === "application/pdf" ? "pdf" : undefined
+};
   },
 });
 

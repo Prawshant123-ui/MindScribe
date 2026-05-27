@@ -9,9 +9,9 @@ const createNote = async (req, res) => {
       return res.status(400).json({ message: "Subject, faculty and semester are required" });
     }
 
-    const thumbnail = req.files?.thumbnail?.[0]?.path || req.body.thumbnail || "";
-    const videoUrl = req.files?.videoUrl?.[0]?.path || req.body.videoUrl || "";
-    const pdfUrl = req.files?.pdfUrl?.[0]?.path || req.body.pdfUrl || "";
+  const pdfUrl = req.files?.pdfUrl?.[0]?.path;
+const videoUrl = req.files?.videoUrl?.[0]?.path;
+const thumbnail = req.files?.thumbnail?.[0]?.path;
 
     const note = await Notes.create({
       subject,
