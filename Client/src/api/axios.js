@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://mindscribe-lvko.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || "https://mindscribe-lvko.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
@@ -11,13 +11,13 @@ api.interceptors.request.use((config) => {
 });
 
 api.interceptors.response.use(
-  (r) => r,
-  (err) => {
-    if (err?.response?.status === 401) {
+  (response) => response,
+  (error) => {
+    if (error?.response?.status === 401) {
       localStorage.removeItem("token");
       localStorage.removeItem("user");
     }
-    return Promise.reject(err);
+    return Promise.reject(error);
   }
 );
 
