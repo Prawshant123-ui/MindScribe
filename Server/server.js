@@ -9,9 +9,11 @@ const seedAdmin = require("./config/seedAdmin");
 
 const app = express();
 
+const cors = require("cors");
+
 app.use(cors({
-  origin: "https://mindscribe-02.netlify.app/",
-  credentials: true,
+  origin: "https://mindscribe-02.netlify.app",
+  credentials: true
 }));
 
 // ✅ Only parse non-multipart requests — multer handles multipart
