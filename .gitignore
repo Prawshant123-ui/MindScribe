@@ -1,0 +1,75 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+
+# Vite cache
+.vite/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# TypeScript (if you use TS anywhere)
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Runtime / misc
+# =========================
+tmp/
+temp/
+
+# =========================
+# Backend uploads (IMPORTANT for your app)
+# =========================
+uploads/
+uploads/*
+!uploads/.gitkeep
+
+# =========================
+# Vite specific
+# =========================
+.vite-inspect/
