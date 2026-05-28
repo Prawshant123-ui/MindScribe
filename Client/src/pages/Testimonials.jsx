@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Quote, Star } from "lucide-react";
 
 const items = [
-  { name: "Aarav S.", role: "Engineering Student", text: "The notes are crisp and exam-ready. I cut my revision time in half." },
-  { name: "Priya M.", role: "Business Student", text: "Videos are clean and well-paced — feels like a real classroom." },
-  { name: "Rohan K.", role: "Science Student", text: "Finally a platform that actually organizes content by semester." },
+  { name: "Joshan P.", role: "BCA Student", text: "The notes are crisp and exam-ready. I cut my revision time in half." },
+  { name: "Sushant S..", role: "Bsc CSIT Student", text: "Videos are clean and well-paced — feels like a real classroom." },
+  { name: "Gaurav S..", role: "Engineering Student", text: "Finally a platform that actually organizes content by semester." },
   { name: "Maya T.", role: "Arts Student", text: "Beautiful interface and quick downloads. Highly recommend." },
 ];
 
