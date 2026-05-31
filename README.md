@@ -24,6 +24,8 @@ Browse, preview, and download notes across faculties — all in one place.
 
 MindScribe is a centralized e-learning platform built specifically for students of **Tribhuvan University (TU)**. Students can browse, preview, and download study materials — notes and videos — organized by faculty and subject. An admin panel allows authorized users to manage all content, monitor users, and view analytics from a dedicated dashboard.
 
+Note: The  UI of this app is made using claude and lovable .
+
 ---
 
 ## ✨ Features
