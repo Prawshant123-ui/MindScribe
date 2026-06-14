@@ -14,12 +14,7 @@ export default function Landing() {
       <section className="hero-bg text-white">
         <div className="container-page py-24 md:py-32 grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <motion.div
-              initial="hidden" animate="show" variants={fadeUp}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-sm"
-            >
-              <Sparkles className="w-4 h-4" /> A modern e-learning experience
-            </motion.div>
+          
             <motion.h1
               initial="hidden" animate="show" custom={1} variants={fadeUp}
               className="mt-5 font-display text-4xl md:text-6xl font-semibold leading-tight"
