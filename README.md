@@ -5,7 +5,7 @@
 **An e-learning platform for Tribhuvan University students**
 Browse, preview, and download notes across faculties — all in one place.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-mindscribe--02.netlify.app-1D9E75?style=for-the-badge&logo=netlify&logoColor=white)](https://mindscribe-02.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-mindscribe--02.netlify.app-1D9E75?style=for-the-badge&logo=netlify&logoColor=white)](https://mind-scribe-pi.vercel.app)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
