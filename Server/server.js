@@ -12,7 +12,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "https://mindscribe-02.netlify.app",
+  origin: "https://mind-scribe-pi.vercel.app",
   credentials: true
 }));
 
